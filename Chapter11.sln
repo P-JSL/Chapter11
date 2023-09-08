@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34009.444
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqWithObjects", "LinqWithObjects\LinqWithObjects.csproj", "{21033B25-A81A-45E3-80FA-1D91F8E8BF4C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqWithObjects", "LinqWithObjects\LinqWithObjects.csproj", "{21033B25-A81A-45E3-80FA-1D91F8E8BF4C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqWithSets", "LinqWithSets\LinqWithSets.csproj", "{DA659B9C-C192-4F98-AC27-77DBA67307EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqWithSets", "LinqWithSets\LinqWithSets.csproj", "{DA659B9C-C192-4F98-AC27-77DBA67307EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqWithEFCore", "LinqWithEFCore\LinqWithEFCore.csproj", "{D9605F2B-9196-4503-8C0E-08C008A69C2D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqWithEFCore", "LinqWithEFCore\LinqWithEFCore.csproj", "{D9605F2B-9196-4503-8C0E-08C008A69C2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqInParallel", "LinqInParallel\LinqInParallel.csproj", "{48CA71DF-80C4-47F0-B9F3-9F46BD8DF000}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{D9605F2B-9196-4503-8C0E-08C008A69C2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9605F2B-9196-4503-8C0E-08C008A69C2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9605F2B-9196-4503-8C0E-08C008A69C2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48CA71DF-80C4-47F0-B9F3-9F46BD8DF000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48CA71DF-80C4-47F0-B9F3-9F46BD8DF000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48CA71DF-80C4-47F0-B9F3-9F46BD8DF000}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48CA71DF-80C4-47F0-B9F3-9F46BD8DF000}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
